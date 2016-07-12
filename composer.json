@@ -1,0 +1,24 @@
+{
+  "name": "purplebooth/prioritiseddateranges",
+  "description": "This is a library that helps you build date ranges",
+  "type": "library",
+  "require-dev": {
+    "phpspec/phpspec": "^2.5",
+    "henrikbjorn/phpspec-code-coverage": "^2.1"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Billie Thompson",
+      "email": "billie@purplebooth.co.uk"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "PurpleBooth\\PrioritisedDateRanges\\": "src/"
+    }
+  },
+  "require": {
+    "php" : "^7.0"
+  }
+}

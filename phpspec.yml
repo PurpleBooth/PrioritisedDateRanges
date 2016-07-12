@@ -1,0 +1,13 @@
+suites:
+    ranges_suite:
+        namespace: PurpleBooth\PrioritisedDateRanges
+        psr4_prefix: PurpleBooth\PrioritisedDateRanges
+
+extensions:
+    - PhpSpec\Extension\CodeCoverageExtension
+
+code_coverage:
+  format:
+    - clover
+  output:
+    clover: coverage.xml
